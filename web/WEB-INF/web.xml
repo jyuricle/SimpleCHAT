@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>LogInOut</servlet-name>
+        <servlet-class>servlets.LogInOut</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LogInOut</servlet-name>
+        <url-pattern>/pages/authentication.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SessionServlet</servlet-name>
+        <servlet-class>servlets.SessionServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SessionServlet</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignUp</servlet-name>
+        <servlet-class>servlets.SignUp</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SignUp</servlet-name>
+        <url-pattern>/pages/registration.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AllMessagesServlet</servlet-name>
+        <servlet-class>servlets.AllMessagesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AllMessagesServlet</servlet-name>
+        <url-pattern>/messages</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NewMessageServlet</servlet-name>
+        <servlet-class>servlets.NewMessageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NewMessageServlet</servlet-name>
+        <url-pattern>/add_message</url-pattern>
+    </servlet-mapping>
+
+</web-app>

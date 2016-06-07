@@ -1,0 +1,60 @@
+body {
+    background-image: url(../images/world_map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: azure;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: rgba(99, 99, 99, 0.75);
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.warnings {
+    color: #ffa701;
+}
+
+.user {
+    color: #FF7A95;
+    font-weight: bold;
+}
+
+.message .user {
+    text-align: left;
+}
+
+.message {
+    background-color: rgba(48, 77, 105, 0.75);
+    border-radius: 25px;
+    text-align: left;
+    padding: 5px;
+}
+
+.text {
+    color: greenyellow;
+    text-align: justify;
+}
+
+.send {
+    text-align: left;
+    margin: 5px;
+}
+
+.all-messages {
+    height: 370px;
+    overflow: auto;
+}
